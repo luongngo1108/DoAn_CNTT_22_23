@@ -1,0 +1,43 @@
+<decorators defaultdir="/WEB-INF/views/layouts">
+	<decorator name="user" page="user.jsp">
+		<pattern>/trang-chu/*</pattern>
+		<pattern>/trang-chu</pattern>
+		<pattern>/dang-nhap</pattern>
+		<pattern>/dang-ky</pattern>
+		<pattern>/checkout</pattern>
+	</decorator>
+	<decorator name="user" page="user.jsp">
+		<pattern>/dang-ky/*</pattern>
+	</decorator>
+	<decorator name="user" page="user.jsp">
+		<pattern>/contact/*</pattern>
+	</decorator>
+	<decorator name="user" page="user.jsp">
+		<pattern>/san-pham/*</pattern>
+	</decorator>
+	<decorator name="user" page="user.jsp">
+		<pattern>/chi-tiet-san-pham/*</pattern>
+	</decorator>
+	<decorator name="user" page="user.jsp">
+		<pattern>/listcart/*</pattern>
+	</decorator>
+	<decorator name="user" page="user.jsp">
+		<pattern>/checkout/*</pattern>
+	</decorator>
+	
+	
+	
+	<decorator name="adminSignin" page="signinAdmin.jsp">
+		<pattern>/quan-tri/dang-nhap/*</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/quan-tri/trang-chu/*</pattern>
+		<pattern>/quan-tri/san-pham/*</pattern>
+		<pattern>/quan-tri/don-hang/*</pattern>
+		<pattern>/quan-tri/tai-khoan/*</pattern>
+		<pattern>/quan-tri/trang-chu</pattern>
+	</decorator>
+	<decorator name="error" page="signinAdmin.jsp">
+		<pattern>/</pattern>
+	</decorator>
+</decorators>
